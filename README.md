@@ -58,12 +58,14 @@ cd Estat_Basica
 ### 2. Criar e ativar o ambiente virtual
 
 No Linux ou macOS:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 No Windows (PowerShell):
+
 ```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
@@ -84,13 +86,16 @@ jupyter lab
 
 ## 📋 Checklist de Progresso do Livro
 
+- [X] [Capítulo 01 - Preliminares](notebooks/cap01_preliminares.ipynb)
+
 ### Parte I — Análise Exploratória de Dados
-- [ ] [Capítulo 01 - Preliminares](notebooks/01_descritiva/cap01_preliminares.ipynb)
+
 - [ ] [Capítulo 02 - Resumo de Dados](notebooks/01_descritiva/cap02_resumo_dados.ipynb)
 - [ ] [Capítulo 03 - Medidas-Resumo](notebooks/01_descritiva/cap03_medidas_resumo.ipynb)
 - [ ] [Capítulo 04 - Análise de Dados de Várias Variáveis](notebooks/01_descritiva/cap04_analise_varias_variaveis.ipynb)
 
 ### Parte II — Probabilidades
+
 - [ ] [Capítulo 05 - Probabilidades](notebooks/02_probabilidade/cap05_probabilidades.ipynb)
 - [ ] [Capítulo 06 - Variáveis Aleatórias Discretas](notebooks/02_probabilidade/cap06_va_discretas.ipynb)
 - [ ] [Capítulo 07 - Variáveis Aleatórias Contínuas](notebooks/02_probabilidade/cap07_va_continuas.ipynb)
@@ -98,6 +103,7 @@ jupyter lab
 - [ ] [Capítulo 09 - Noções de Simulação](notebooks/03_simulacao/cap09_nocoes_simulacao.ipynb)
 
 ### Parte III — Inferência Estatística
+
 - [ ] [Capítulo 10 - Introdução à Inferência Estatística](notebooks/04_inferencia/cap10_intro_inferencia.ipynb)
 - [ ] [Capítulo 11 - Estimação](notebooks/04_inferencia/cap11_estimacao.ipynb)
 - [ ] [Capítulo 12 - Testes de Hipóteses](notebooks/04_inferencia/cap12_testes_hipoteses.ipynb)
