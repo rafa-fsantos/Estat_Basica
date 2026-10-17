@@ -6,8 +6,8 @@ inferencial, testes de aderência e reamostragem bootstrap.
 
 from typing import Any, Callable, Dict, Optional, Tuple, Union
 import numpy as np # type: ignore
-import pandas as pd # pyright: ignore[reportMissingModuleSource]
-from scipy import stats # pyright: ignore[reportMissingImports]
+import pandas as pd # type: ignore
+from scipy import stats # type: ignore
 
 
 ArrayLike = Union[pd.Series, np.ndarray, list]
@@ -64,7 +64,8 @@ def criar_tabela_frequencias(dados: pd.Series, ordem_categorias=None) -> pd.Data
         'Porcentagem (100 * fi)': freq_percentual
     })
 
-    # Aplicação de ordenação personalizada, se fornecida
+    # Aplicação de ordenação personalizada, se fornecida ou padroniza por
+    # ordem crescente da coluna/variável
     if ordem_categorias is not None:
         tabela = tabela.reindex(ordem_categorias)
     else:
