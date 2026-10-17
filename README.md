@@ -29,6 +29,10 @@ Repositório dedicado ao acompanhamento prático, anotações conceituais, resol
 │   └── ...
 ├── notes/                  # Fichamentos, fórmulas em LaTeX ($) e sínteses teóricas
 ├── src/                    # Scripts auxiliares e rotinas utilitárias reutilizáveis
+|   ├── __init__.py
+|   ├── stats_utils.py      # Funções de cálculo estatístico, bootstrap, intervalos
+|   ├── viz.py              # Configurações de layout (Matplotlib/Seaborn) e gráficos padronizados
+|   └── io_utils.py         # Carregamento facilitado de data/raw e data/processed
 ├── .gitignore              # Arquivos e diretórios ignorados pelo Git
 ├── environment.yml         # Ambiente Conda (ou requirements.txt para Python/renv.lock para R)
 ├── LICENSE                 # Licença de uso
